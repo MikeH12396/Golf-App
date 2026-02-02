@@ -1,0 +1,46 @@
+.main{
+    background-image: url(images/golf-bag-blur.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.header{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 7px 7px 5px #0f0f0e;
+    background-image: url(images/sunset-golf.png);
+    /* Make background a single image spanning the whole header */
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    background-size: 100% auto;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.top-msg{
+    align-items: center;
+}
+
+.sports_golf{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.google-sans-header-font {
+  font-family: "Google Sans", sans-serif;
+  font-size: 40px;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
