@@ -16,6 +16,9 @@
     background-repeat: no-repeat;
     background-position-y: 70%;
     background-size: 100% auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .material-symbols-outlined {
@@ -43,4 +46,17 @@
   font-style: normal;
   font-variation-settings:
     "GRAD" 0;
+}
+
+.google-sans-intro-text {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 6vh;
+  text-align: center;
+  
+  font-variation-settings:
+    "GRAD" 0;
+
 }
