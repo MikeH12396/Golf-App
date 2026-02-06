@@ -1,7 +1,7 @@
 console.log("Script is connected and running.");
 
 const geoPos = document.getElementById("location");
-const btn = document.querySelector(".btn");
+const btn = document.querySelector("btn");
 
 btn.addEventListener("click", getLocation);
 
