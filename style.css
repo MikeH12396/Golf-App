@@ -54,9 +54,27 @@
   font-weight: 600;
   font-style: normal;
   margin-top: 6vh;
+  margin-bottom: 6vh;
   text-align: center;
   
   font-variation-settings:
     "GRAD" 0;
 
+}
+
+.location-entry{
+    display: flex;
+    width: 50%;
+    margin-top: 6vh;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.fa-map-marker:hover{
+    transition: 200ms;
+    transform: scale(1.2);
+}
+
+.form-label{
+    margin-left: 20px;
 }

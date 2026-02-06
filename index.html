@@ -9,15 +9,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=sports_golf" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=golf_course" />
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bungee&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">        
                 <!-- Bootstrap CSS (CDN) -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=golf_course" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bungee&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     </head>
 
     <body class="main">
@@ -35,13 +37,21 @@
             </div>
             <div class="body">
                <div class="google-sans-intro-text">
-                    <h4>Hello and welcome to the Golf App! This is a project I am making to gain a better understanding of APIs within Python. The way it will work is that you enter your location (or your device's geolocation), which will then produce a list of golf courses within a set radius from you.</h4>
-                </div>
-                <div class="location-entry">
-                    
+                    <h4>Hello and welcome to the Golf App! This is a project I am making to gain a better understanding of APIs within Web Development. The way it will work is that you enter your location (or your device's geolocation), which will then produce a list of golf courses within a set radius from you.</h4>
                 </div>
             </div>
-            
+            <div class="location-entry">
+                <div class="mb-3 entry-box">
+                    <label for="formGroupExampleInput" class="form-label">Input your location</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input Location">
+                </div>
+                <div class="button">
+                    <button class="btn">
+                        <i class="fa fa-map-marker" style="font-size:48px;color:red"></i>
+                    </button>
+                    <p id="location"></p>
+                </div>
+            </div>
         </main>
     </body>
 </html>
