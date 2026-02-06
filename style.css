@@ -79,12 +79,29 @@
     margin-left: 20px;
 }
 
-.results-box{
-    display: none;
-    margin: auto;
-    height: fit-content;
-    width: fit-content;
-    box-shadow: 5px, 5px, 5px, #0f0f0e;
-    border-radius: 16px;
-    border-style: solid;
+.results-box {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+#map {
+    /* Don't use display: none; it can break the API initialization */
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: -9999px; /* Pushes it way off the screen */
+    visibility: hidden;
+}
+
+#course-list h3 {
+    color: #1a1a1a;
+}
+
+.card {
+    background: white !important;
+    margin-bottom: 10px;
+    color: black !important;
 }
