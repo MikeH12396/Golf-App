@@ -78,3 +78,13 @@
 .form-label{
     margin-left: 20px;
 }
+
+.results-box{
+    display: none;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 5px, 5px, 5px, #0f0f0e;
+    border-radius: 16px;
+    border-style: solid;
+}
